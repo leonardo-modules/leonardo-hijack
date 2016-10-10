@@ -21,6 +21,10 @@ LEONARDO_MIDDLEWARES = [
     'django.contrib.auth.middleware.RemoteUserMiddleware',
 ]
 
+LEONARDO_CSS_FILES = [
+    'hijack/leonardo-hijack-styles.css'
+]
+
 
 class Config(AppConfig):
     name = 'leonardo_hijack'
