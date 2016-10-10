@@ -7,10 +7,12 @@ default_app_config = 'leonardo_hijack.Config'
 
 LEONARDO_URLS_CONF = "hijack.urls"
 
+LEONARDO_ORDERING = -500
+
 LEONARDO_APPS = [
-	'leonardo_hijack',
-	"hijack",
-	"compat"
+    'leonardo_hijack',
+    "hijack",
+    "compat"
 ]
 
 LEONARDO_MIDDLEWARES = [
