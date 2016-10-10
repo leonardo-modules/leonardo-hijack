@@ -18,7 +18,7 @@ LEONARDO_MIDDLEWARES = [
 ]
 
 LEONARDO_CSS_FILES = [
-    'hijack/hijack-styles.css'
+    'hijack/leonardo-hijack-styles.css'
 ]
 
 
