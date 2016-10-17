@@ -1,1 +1,2 @@
-django-hijack==2.0.0
+django-hijack==2.1.2
+django-hijack-admin==2.1.2
